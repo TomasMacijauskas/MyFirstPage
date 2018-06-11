@@ -1,0 +1,366 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+.first-page {
+	height: 100%;
+	position: relative;
+}
+
+
+#logo {
+	width: 300px;
+	margin-left: 50px;
+	padding-top: 15px;
+}
+
+.menu {
+	display: inline;
+	padding-top: 10px;
+	padding-right: 10px;
+	font-size: 20px;
+	  }
+
+a:link {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Comfortaa', cursive;
+}
+
+a:hover {
+    color: orange;
+    }
+
+a:visited {
+	color: white;
+}
+
+.make-me-center {
+	text-align: center;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.menu-position {
+	padding-right: 75px;
+}
+
+.first-page {
+	background-color: white;
+	background-image: linear-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5) ), url(http://www.realdetroitweekly.com/wp-content/uploads/2017/06/Restaurants.jpg);
+
+}
+
+#down-arrow {
+	display: block;
+	margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+}
+
+.front-text {
+	font-size: 80px;
+	font-family: 'Tangerine', serif;
+	color: white;
+	font-weight: normal;
+	text-align: center;
+	padding-top: 150px;
+	margin-bottom: 10px
+}
+
+.small-text {
+	display: inline-block;
+	position: relative;
+	font-size: 30px;
+	font-family: 'Tangerine', serif;
+	color: white;
+	font-weight: normal;
+	text-align: center;
+	margin-top: 0;
+
+}
+
+.smmall-text::before {
+	content: '';
+	display: block;
+	height: 1px;
+	width: 100%;
+	background: #FFF;
+	position: absolute;
+	right: -120%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.small-text::after {
+	content: '';
+	display: block;
+	height: 1px;
+	width: 100%;
+	background: #FFF;
+	position: absolute;
+	right: -120%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#our-team {
+	font-family: 'Tangerine', serif;
+	text-align: center;
+	font-size: 80px;
+	padding-top: 20px;
+	margin-bottom: 20px;
+	background-color: white;
+}
+
+.bio {
+	display: inline-block;
+	max-width: 300px;
+	text-align: center;
+	margin-right: 40px;
+
+}
+
+.face {
+	display: inline-block;
+	width: 300px;
+	margin-bottom: 0px;
+}
+
+.about-us {
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
+.name {
+	font-family: 'Comfortaa', cursive;
+	font-size: 30px;
+	margin-bottom: 0px;
+}
+
+.information {
+	font-family: 'Comfortaa', cursive;
+	color: gray;
+}
+
+.second-page {
+	background: white;
+}
+
+#third-page {
+	background: #c2c2d6;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 14px/1 'Open Sans', sans-serif;
+  color: #555;
+  background: #e5e5e5;
+}
+
+.gallery {
+  width: 43%;
+  margin: 0 auto;
+  padding: 5px;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0,0,0,.3);
+}
+
+.gallery > div {
+  position: relative;
+  float: left;
+  padding: 5px;
+}
+
+.gallery > div > img {
+  display: block;
+  width: 200px;
+  transition: .1s transform;
+  transform: translateZ(0); /* hack */
+}
+
+.gallery > div:hover {
+  z-index: 1;
+}
+
+.gallery > div:hover > img {
+  transform: scale(1.7,1.7);
+  transition: .3s transform;
+}
+
+.cf:before, .cf:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+
+.cf:after {
+  clear: both;
+}
+
+h1 {
+  margin: 40px 0;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.lentele {
+	list-style: none;
+	padding-bottom: 50px;
+}
+
+
+.instagram-icon {
+	width: 20px;
+}
+
+.instagram-link {
+	margin-top: 10px;
+	display: inline;
+	text-align:center;
+	align-items: center;
+}
+
+.center-me {
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.instagram-icon {
+  width: 32px;
+  vertical-align: middle;
+}
+
+.form {
+	display: inline-block;
+	max-width: 500px;
+	text-align: center;
+	margin-right: 60px;
+}
+
+#fourth-page {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	background-color: #666699;
+}
+
+.adresas {
+	font-size: 20px;
+	margin-top: 25px;
+	color: white;
+	font-family: 'Comfortaa', cursive;
+}
+
+.names {
+	width: 400px;
+	height: 30px;
+	margin-bottom: 10px;
+	font-family: 'Comfortaa', cursive;
+	padding-left: 10px;
+}
+.email {
+	width: 400px;
+	height: 30px;
+	margin-bottom: 10px;
+	font-family: 'Comfortaa', cursive;
+	padding-left: 10px;
+}
+
+.tekstas {
+	width: 400px;
+	height: 200px;
+	margin-bottom: 10px;
+	font-family: 'Comfortaa', cursive;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.submit {
+	background-color: #FFF;
+    border: none;
+    color: black;
+    padding: 10px 145px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    font-family: 'Comfortaa', cursive;
+}
+
+#contact-us {
+	background-color: #666699;
+	color: white;
+	font-family: 'Tangerine', serif;
+	text-align: center;
+	font-size: 80px;
+	padding-top: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.footeris {
+	list-style: none;
+	background-color: #29293d;
+	color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Comfortaa', cursive;
+}
+
+.footer-menu {
+	display: inline;
+	padding-top: 10px;
+	padding-right: 40px;
+	font-size: 15px;
+	vertical-align: middle;
+}
+
+.footer-menu-logo {
+	width: 150px;
+}
+
+.vertical-me {
+	display: inline;
+	vertical-align: middle;
+}
+
+.copyright {
+	font-size: 10px;
+	color: white;
+	font-family: 'Comfortaa', cursive;
+	text-align: center;
+
+}
+
+.fb-menu {
+	display: inline;
+	padding-right: 40px;
+	font-size: 15px;
+	vertical-align: text-top;
+	text-align: center;
+}
+
+.fb-size {
+	width: 30px;
+}
